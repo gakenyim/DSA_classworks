@@ -110,6 +110,7 @@ if __name__ =='__main__':
     graph_obj.add_edge("D", "C", 7)
 
     print(graph_obj)
+    print(graph_obj)
     print("BREADTH FIRST SEARCH: \n")
     print(graph_obj.bfs("A"))
     print("DEPTH FIRST SEARCH: \n")
